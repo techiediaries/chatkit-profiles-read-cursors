@@ -8,8 +8,8 @@ import { ChatManager, TokenProvider } from '@pusher/chatkit-client';
 export class ChatService {
 
   AUTH_URL = 'http://localhost:3000/token';
-  INSTANCE_LOCATOR = 'v1:us1:8974881e-3870-47b4-9053-14dad6c0e314';
-  GENERAL_ROOM_ID = "19376018";
+  INSTANCE_LOCATOR = 'YOUR_INSTANCE_LOCATOR';
+  GENERAL_ROOM_ID = "YOUR_ROOM_ID";
   GENERAL_ROOM_INDEX = 0;
 
   chatManager: ChatManager;
